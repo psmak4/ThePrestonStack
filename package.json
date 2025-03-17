@@ -4,6 +4,7 @@
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
+		"start:emulators": "firebase emulators:start --import=./data --export-on-exit",
 		"dev": "vite",
 		"build": "tsc -b && vite build",
 		"lint": "eslint .",
@@ -11,6 +12,7 @@
 		"prepare": "husky install"
 	},
 	"dependencies": {
+		"firebase": "^11.4.0",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0"
 	},
