@@ -4,6 +4,7 @@
 - TypeScript
 - Vite
 - Prettier
+- React Router
 - Clerk
 
 ## Installation
