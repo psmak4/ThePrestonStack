@@ -13,9 +13,13 @@
 	},
 	"dependencies": {
 		"@clerk/clerk-react": "^5.24.2",
+		"@netlify/functions": "^3.0.2",
+		"@types/express": "^5.0.0",
+		"express": "^4.21.2",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0",
-		"react-router": "^7.3.0"
+		"react-router": "^7.3.0",
+		"serverless-http": "^3.2.0"
 	},
 	"devDependencies": {
 		"@eslint/js": "^9.21.0",
